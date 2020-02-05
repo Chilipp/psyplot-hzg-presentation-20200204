@@ -1,0 +1,24 @@
+name: psyplot-presi
+channels:
+    - chilipp/label/dev
+    - conda-forge
+dependencies:
+    - python=3.7
+    - psy-maps
+    - psy-reg
+    - pip
+    - jupyter
+    - notebook
+    - rise
+    - netcdf4
+    - scikit-learn
+    - psyplot-gui
+    - dask
+    # dependencies of psy-vtk
+    - bokeh
+    - pyviz_comms
+    - pyvista
+    - pip:
+        - pyct
+        - git+https://github.com/pyviz/panel.git@master
+        - git+https://github.com/Chilipp/psy-vtk.git@master
